@@ -10,7 +10,9 @@ import org.bukkit.event.player.*;
 import org.bukkit.inventory.*;
 import org.bukkit.inventory.meta.*;
 import org.bukkit.entity.Player;
-
+/*Merged From China2b2t's Developer MornSakura
+ *Time:4/29/2020
+ *Author:MornSakura Rabbit0w0 Fqeke_*/
 public class Main extends JavaPlugin implements Listener
 {
 	private static Main instance;
@@ -90,7 +92,7 @@ public class Main extends JavaPlugin implements Listener
     
     @EventHandler
     public void onJoin(final PlayerJoinEvent e) {
-		e.getPlayer().sendMessage("§3--------------------------------------------------");
+	e.getPlayer().sendMessage("§3--------------------------------------------------");
         e.getPlayer().sendMessage("§6\u6b22\u8fce\u56de\u6765 §c§lCHINA§f§l2B2T.ORG §6! \u73a9\u5bb6 §c" + e.getPlayer().getName());
         e.getPlayer().sendMessage("§6\u9996\u5148\uff0c\u6211\u4eec\u8981\u786e\u8ba4\u60a8\u662f\u4e0d\u662f\u673a\u5668\u4eba :) \u8bf7\u60a8\u5b8c\u6210\u9a8c\u8bc1\u7801\u5373\u53ef\u6e38\u73a9");
         e.getPlayer().sendMessage("§6\u8bf7\u52a0\u5165CHINA2B2T\u65f6\u4f7f\u7528\u6211\u4eec\u7684\u5b98\u65b9IP §cchina2b2t.org");
@@ -98,6 +100,7 @@ public class Main extends JavaPlugin implements Listener
         e.getPlayer().sendMessage("§6\u5982\u679c\u4f60\u9700\u8981\u66f4\u591a\u7684\u5e2e\u52a9\u53ef\u4ee5\u5728\u6e38\u620f\u4e2d\u8f93\u5165§c /help");
         e.getPlayer().sendMessage("§6\u8bf7\u4eab\u53d7\u4f60\u5728 §c§lCHINA§f§l2B2T.ORG §6\u5ea6\u8fc7\u7684\u65f6\u95f4\u5427");
         e.getPlayer().sendMessage("§3--------------------------------------------------");
+	Thread.currentThread().sleep(1000);
         Bukkit.getScheduler().scheduleSyncDelayedTask((Plugin)this, (Runnable)new Runnable() {
             @Override
             public void run() {
