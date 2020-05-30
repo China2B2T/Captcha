@@ -2,6 +2,7 @@ package org.china2b2t.captchalib;
 import java.util.HashMap;
 
 import org.bukkit.Material;
+import org.bukkit.map.MapView;
 
 public enum IMaterial {
   	AIR(0),
