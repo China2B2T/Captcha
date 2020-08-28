@@ -1,14 +1,8 @@
-# China2B2T-s-Captcha
-China2B2T.ORG's Captcha
+## China2B2T's Captcha
+# Developed by Rabbit0w0 lushangkan MornSakura
 
-Just a Captcha plugin for China2B2T
+This is a maven project so you can import this project easily.
+And you can use maven to build it.
+If you have any question, please e-mail to misterrabbit@qq.com
 
-How to install a dev env:
-
-1.Open eclipse and create a project
-
-2.Drop this package to the project root directory
-
-3.Import bukkit(important)
-
-this repo needs advance develop,ill update it later
+(c) Rabbit0w0 All Rights Reserved
