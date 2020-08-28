@@ -10,10 +10,12 @@ import org.bukkit.event.player.*;
 import org.bukkit.inventory.*;
 import org.bukkit.inventory.meta.*;
 import org.bukkit.entity.Player;
-/*Merged From China2b2t's Developer lushangkan
+/*
+ *Merged From China2b2t's Developer lushangkan
  *Time:30/05/2020
  *Unix timestamp:1590845355
- *Author:MornSakura Rabbit0w0 Fqeke_ lushangkan*/
+ *Author:MornSakura Rabbit0w0 Fqeke_ lushangkan
+ */
 public class Main extends JavaPlugin implements Listener
 {
     private static Main instance;
@@ -46,14 +48,7 @@ public class Main extends JavaPlugin implements Listener
             Player p =(Player)(e.getWhoClicked());
             this.getConfig().set(p.getName() + ".needed", (Object)null);
             this.saveConfig();
-            UUID su = Internet.getuuid(p.getName());
-            if(su == null){
-                BungeeUtils.connect((Player)e.getWhoClicked(),"bd2b2t");
-            }else if(p.getUniqueId().equals(su)){
-                BungeeUtils.connect((Player)e.getWhoClicked(),"2b2t");
-            }else{
-                BungeeUtils.connect((Player)e.getWhoClicked(),"bd2b2t");
-            }
+            BungeeUtils.connect((Player)e.getWhoClicked(),"2b2t");
             p.closeInventory();
         }
         else if (e.getInventory().getName().equals("§6§lChina2B2T Captcha")) {
