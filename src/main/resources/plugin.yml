@@ -1,4 +1,5 @@
 name: CaptchaLib
 main: org.china2b2t.captchalib.Main
-author: [lushangkan,MornSakura,Rabbit0w0,Fqeke_,SuperHuang233]
-version: 1.1.0
+description: Easier to protect your server from fake players
+author: [lushangkan,MornSakura,Rabbit0w0,SuperHuang233]
+version: 1.1.2
